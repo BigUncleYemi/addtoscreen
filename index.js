@@ -2,7 +2,7 @@
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/sw.js')
+           .register('/addtoscreen/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 
