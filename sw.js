@@ -6,8 +6,7 @@ self.addEventListener('install', function(e) {
        '/addtoscreen/index.html',
        '/addtoscreen/index.js',
        '/addtoscreen/style.css',
-       '/addtoscreen/dalepersonalcard.jpg',
-       '/addtoscreen/images',
+       '/addtoscreen/dalepersonalcard.jpg'
      ]);
    })
  );
