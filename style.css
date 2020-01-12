@@ -7,7 +7,12 @@ body {
   margin: 0;
 }               
 
+#add-button{
+  cursor: pointer;
+}
+
 .add-button {
+  display: none;
   position: absolute;
   top: 1px;
   left: 1px;
