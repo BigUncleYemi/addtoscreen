@@ -2,12 +2,12 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('video-store').then(function(cache) {
      return cache.addAll([
-       '/',
-       '/index.html',
-       '/index.js',
-       '/style.css',
-       '/dalepersonalcard.jpg',
-       '/images',
+       '/addtoscreen/',
+       '/addtoscreen/index.html',
+       '/addtoscreen/index.js',
+       '/addtoscreen/style.css',
+       '/addtoscreen/dalepersonalcard.jpg',
+       '/addtoscreen/images',
      ]);
    })
  );
