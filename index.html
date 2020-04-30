@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="index.js" defer></script>
-    <link rel="manifest" href="manifest.webmanifest">
-    <title>Dale's Digital Business Card</title>
+    <meta charset="utf-8" />
+    <style>
+    *{
+  font-family: avenir;
+}
+
+.bg-transparent{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.thank-you{
+  text-align: center;
+  width: 80%
+}
+
+.thank-you_head{
+  color: #F7B100;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.thank-you_text{
+  font-size: 1rem;
+}
+    </style>
   </head>
   <body>
-    <button class="add-button">Add to home screen</button>
-	<div id="apDiv1">
-    <img src="./dalepersonalcard.jpg" width="750" height="1334" border="0" usemap="#Map" />
-<map name="Map" id="Map">
-  <area shape="rect" coords="68,510,356,560" id="add-button">
-  <area shape="rect" coords="71,511,351,559" />
-  <area shape="rect" coords="592,592,690,731" href="tel:4234088225‬" />
-  <area shape="rect" coords="484,592,584,728" href="facetime://4233058630" />
-  <area shape="rect" coords="591,752,689,881" href="https://www.messenger.com/t/dale.mcnelly" />
-  <area shape="rect" coords="486,751,585,879" href="https://www.linkedin.com/in/dale-mcnelly-a1245547" />
-  <area shape="rect" coords="169,589,270,728" href="sms:14233058630" />
-  <area shape="rect" coords="278,751,373,880" href="https://twitter.com/DaleMcNelly" />
-  <area shape="rect" coords="277,590,370,730" href="http://www.newdigitalcard.com" />
-<area shape="rect" coords="375,592,476,731" href="mailto:dale@newdigitalcard.com" />
-<area shape="rect" coords="66,591,163,727" href="tel:4233058630" />
-<area shape="rect" coords="60,754,159,883" href="https://www.facebook.com/pg/TimeForANewConversation" target="_blank" />
-<area shape="rect" coords="172,750,270,883" href="https://www.instagram.com/dalemcnelly/" />
-<area shape="rect" coords="381,751,478,878" href="https://www.youtube.com/channel/UC3nI3Tbal0RzMNGMa2FTlYw?view_as=subscriber" />
-<area shape="rect" coords="73,923,682,1272" href="https://youtu.be/NXUTs-DEAIU" />
-<area shape="rect" coords="246,1287,472,1319" href="http://www.newdigitalcard.com" />
-<area shape="rect" coords="35,32,260,149" href="http://www.newdigitalcard.com" />
-</map>
+<div class="bg-transparent">
+  <div class="thank-you">
+    <h3 class="thank-you_head">
+      Thank you for your interest!
+    </h3>
+    <p class="thank-you_text">
+      We've successfully received your submission to join our agent program, and our sales team will be in touch shortly.
+    </p>
+    <p class="thank-you_text">
+      If you have any questions feel free to:<br/>
+- continue browsing the website<br/>
+- read frequently asked questions<br/>
+- or, contact us
+    </p>
+    <p class="thank-you_text">
+      Regards,<br/>
+AjoCard Sales Team
+    </p>
+  </div>
 </div>
-  </body>
+</body>
 </html>
